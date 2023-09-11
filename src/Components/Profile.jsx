@@ -45,7 +45,7 @@ function Profile({uiData}) {
             </section>
             <section className="User-Information my-2">
                 <h2 className="text-center font-semibold text-xl md:text-3xl mb-5 text-red-500">{uiData.name}</h2>
-                <h4 className="text-justify font-medium md:text-lg">{uiData.bio}</h4>
+                <h4 className=" text-justify md:text-center font-medium md:text-lg">{uiData.bio}</h4>
                 <div className="Repo-Details flex flex-col gap-2 mt-4  md:mt-8">
                     <div className="Followers border-4 border-black bg-orange-300 overflow-hidden font-bold text-sm flex justify-between items-center p-1">
                         Followers <span className="border-2 border-black px-3 bg-white text-red-500 font-bold">{uiData.followers}</span>
