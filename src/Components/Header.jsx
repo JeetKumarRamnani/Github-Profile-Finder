@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <header className="flex justify-between items-center shadow-xl p-4">
+    <header className="flex justify-between items-center shadow-xl p-4 gap-7">
         <div className="logo w-32">
             <a href="/"><img src="https://fontmeme.com/permalink/230911/f958685d4ca3975d1f5307af7bb5bb69.png" alt="logo"  /></a>
         </div>
