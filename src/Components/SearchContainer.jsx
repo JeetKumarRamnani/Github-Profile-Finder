@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function SearchContainer({ setUIData }) {
   const [searchData, setSearchData] = useState("");
   const userQuery = searchData.split(" ").join("");
-  const token = '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';
+  const token = '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';
 
   async function handleSearchSubmit() {
     try {
